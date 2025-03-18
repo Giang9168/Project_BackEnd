@@ -52,7 +52,7 @@ public class ProductsServiceImpl implements ProductsService {
 		pageProduct.setProduct(listProductDTO);
 		pageProduct.setLimit(limit);
 		pageProduct.setSkip(skip);
-		pageProduct.setTotal(s);
+		pageProduct.setTotal(3);
 
 		return pageProduct;
 	}
